@@ -10,23 +10,34 @@ html, body {
     width: 1536px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .clr {
     clear:both;
 }
 
-.header {
-    text-align: center;
-    background-color: rgb(255,255,255);
-    display:block;    
+body {
+    background-image: url('/img/background.jfif');
 }
 
 .nav {
-    background-color: black;
     overflow: auto;
 }
 
-.nav img {
-    box-sizing: content-box;
+.nav a {
+    font-size: 16px;
+    color:white;
+}
+
+.nav a:hover {
+    background-color: #171a20;
+}
+
+.nav li {
+    padding: 4px 8px;
+    margin: 0 8px;
 }
 
 .nav li {
@@ -35,9 +46,32 @@ html, body {
 
 .box {
     float:left;
-    width:33.3%;
+    width:30%;
     text-align: center;
 }
+
+.box ul {
+    height:56px;
+}
+
+.box-center {
+    float:left;
+    width:40%;
+    text-align: center; 
+}
+
+.box-right ul {
+    padding: 0 32px 0 0;
+}
+
+.right-nav {
+    position:fixed;
+    right:0;
+}
+
+
+
+
 
 
 
