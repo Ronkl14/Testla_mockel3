@@ -1,4 +1,43 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    max-width: 1536px;
 }
+
+html, body {
+    width: 1536px;
+}
+
+.clr {
+    clear:both;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(255,255,255);
+    display:block;    
+}
+
+.nav {
+    background-color: black;
+    overflow: auto;
+}
+
+.nav img {
+    box-sizing: content-box;
+}
+
+.nav li {
+    float:left;
+}
+
+.box {
+    float:left;
+    width:33.3%;
+    text-align: center;
+}
+
+
+
