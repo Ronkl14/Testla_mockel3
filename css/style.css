@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    max-width: 1536px;
+    max-width: 1518px;
 }
 
 html, body {
@@ -22,6 +22,10 @@ body {
     background-image: url('/img/background_cr4.jpg');
     background-size: 1536px auto;
     background-repeat: no-repeat;
+}
+
+.first {
+    color: white;
 }
 
 .nav {
@@ -75,6 +79,10 @@ body {
     text-align: center;
 }
 
+.first main a {
+    color:white;
+}
+
 .heading {
     position:relative;
     top:114px;
@@ -95,9 +103,33 @@ body {
     width:25%
 }
 
-.contact {
-
+.second {
+    position: relative;
+    top:639px;
 }
+
+/* .second img {
+    border: 2px solid black;
+} */
+
+.second-right {
+    width: 390px;
+    text-align: left;
+    float:right;
+}
+
+.bottom-box {
+    position: absolute;
+    bottom:50px;
+    width: 390px;
+}
+
+.bottom-box .container {
+    float:left;
+    width:50%;
+}
+
+
 
 .contact {
     width:60px;
