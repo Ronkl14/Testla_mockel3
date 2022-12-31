@@ -19,7 +19,9 @@ a {
 }
 
 body {
-    background-image: url('/img/background.jfif');
+    background-image: url('/img/background_cr4.jpg');
+    background-size: 1536px auto;
+    background-repeat: no-repeat;
 }
 
 .nav {
@@ -65,9 +67,61 @@ body {
 }
 
 .right-nav {
-    position:fixed;
+    position:absolute;
     right:0;
 }
+
+.container {
+    text-align: center;
+}
+
+.heading {
+    position:relative;
+    top:114px;
+    text-align: center;
+}
+
+.buy-now {
+    width: 764px;
+    height: 54px;
+    position: absolute;
+    top: 577px;
+    left:386px;
+}
+
+.buy-now .container {
+    float:left;
+    margin:auto;
+    width:25%
+}
+
+.contact {
+
+}
+
+.contact {
+    width:60px;
+    height:60px;
+    background-color: white;
+    border-radius: 50%;
+    position:fixed;
+    top:578px;
+    right:29px;
+    box-shadow: 0 0 20px 0;
+}
+
+.contact img {
+    width:29px;
+    position:absolute;
+    top:16px;
+    left:16px;
+}
+
+
+
+
+
+
 
 
 
