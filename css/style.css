@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     max-width: 1518px;
+    /* border: 2px solid black; */
 }
 
 html, body {
@@ -129,7 +130,54 @@ body {
     width:50%;
 }
 
+.third {
+    position:absolute;
+    top: 1400px;
+}
 
+.third .bottom-box {
+    text-align: left;
+    position:absolute;
+    top:500px;
+    margin:auto;
+    width:1518px;
+}
+
+.third .info {
+    width: 764px;
+    height: 54px;
+    position: absolute;
+    top: 310px;
+    left:386px;
+    color: white;
+}
+
+.third .info .container {
+    float:left;
+    margin:auto;
+    width:33%
+}
+
+.third .buy-learn {
+    position: absolute;
+    top:80px;
+    width: 390px;
+}
+
+.third .buy-learn .container {
+    float:left;
+    width:50%;
+}
+
+.third .left-box {
+    float:left;
+    width:30%;
+}
+
+.third .right-box {
+    float:right;
+    width:70%;
+}
 
 .contact {
     width:60px;
