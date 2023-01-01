@@ -206,7 +206,7 @@ main .buy-now .buy:hover {
 }
 
 
-.second .bottom-box .learn {
+.second .bottom-box .learn, {
     position:relative;
     bottom:13px;
 }
@@ -220,7 +220,7 @@ main .buy-now .buy:hover {
 }
 
 .second .bottom-box .buy,
-.third .bottom-box {
+.third .bottom-box{
     color:black;
     position:relative;
     top:8px;
@@ -292,6 +292,19 @@ main .buy-now .buy:hover {
 .third .right-box {
     float:right;
     width:70%;
+}
+
+.third .bottom-box .buy {
+    border: 2px black solid;
+    border-radius: 4px;
+    width:200px;
+    height:40px;
+    float:right;
+}
+
+.third .bottom-box .buy:hover {
+    background-color: black;
+    cursor: pointer;
 }
 
 .contact {
